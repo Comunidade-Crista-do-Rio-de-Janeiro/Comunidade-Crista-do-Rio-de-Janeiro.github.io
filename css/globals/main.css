@@ -1,0 +1,8 @@
+main{
+    position: absolute;
+    top: 100vh;
+    height: 70vh;
+    width: 100%;
+    color: #000;
+    background-color: #fff;
+}

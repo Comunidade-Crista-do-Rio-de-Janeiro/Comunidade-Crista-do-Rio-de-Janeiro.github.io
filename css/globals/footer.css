@@ -1,0 +1,12 @@
+footer{
+    position: absolute;
+    top: 170vh;
+    display: grid;
+    grid-template-columns: 1fr 30% 1fr;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}

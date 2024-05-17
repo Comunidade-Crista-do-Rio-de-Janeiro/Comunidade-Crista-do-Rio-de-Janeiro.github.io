@@ -2,11 +2,13 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <link rel='stylesheet' type='text/css' href='./css/global.css'>
-    <link rel='stylesheet' type='text/css' href='./css/header.css'>
+    <link rel='stylesheet' type='text/css' href='./css/globals/global.css'>
+    <link rel='stylesheet' type='text/css' href='./css/globals/header.css'>
+    <link rel='stylesheet' type='text/css' href='./css/globals/main.css'>
+    <link rel='stylesheet' type='text/css' href='./css/globals/footer.css'>
+
     <link rel='stylesheet' type='text/css' href='./css/navigator.css'>
     <link rel='stylesheet' type='text/css' href='./css/carousel.css'>
-    <link rel='stylesheet' type='text/css' href='./css/main.css'>
 
     <title>Comunidade Cristã do Rio de Janeiro</title>
     <link rel="icon" href="./assets/images/title-ccrj.png" type="image/x-icon" />
@@ -48,35 +50,64 @@
         </div>
     </header>
 
+    <div class="carousel">
+        <input id="radio1" name="slider" class="slider" type="radio" checked />
+        <input id="radio2" name="slider" class="slider" type="radio" />
+        <input id="radio3" name="slider" class="slider" type="radio" />
+        <input id="radio4" name="slider" class="slider" type="radio" />
+        <input id="radio5" name="slider" class="slider" type="radio" />
+        <div class="cards">
+            <label for="radio1" class="card">
+                <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80">
+            </label>
+            <label for="radio2" class="card">
+                <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80">
+            </label>
+            <label for="radio3" class="card">
+                <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60">
+            </label>
+            <label for="radio4" class="card">
+                <img src="https://images.unsplash.com/photo-1715590876582-18e4844864a6?q=80">
+            </label>
+            <label for="radio5" class="card">
+                <img src="https://images.unsplash.com/photo-1715454969547-a69afff2a701?q=80">
+            </label>
+        </div>
+    </div>
+
     <main>
-        <div class="carousel">
-            <input id="radio1" name="slider" class="slider" type="radio" checked />
-            <input id="radio2" name="slider" class="slider" type="radio" />
-            <input id="radio3" name="slider" class="slider" type="radio" />
-            <input id="radio4" name="slider" class="slider" type="radio" />
-            <input id="radio5" name="slider" class="slider" type="radio" />
-            <div class="cards">
-                <label for="radio1" class="card">
-                    <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80">
-                </label>
-                <label for="radio2" class="card">
-                    <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80">
-                </label>
-                <label for="radio3" class="card">
-                    <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60">
-                </label>
-                <label for="radio4" class="card">
-                    <img src="https://images.unsplash.com/photo-1715590876582-18e4844864a6?q=80">
-                </label>
-                <label for="radio5" class="card">
-                    <img src="https://images.unsplash.com/photo-1715454969547-a69afff2a701?q=80">
-                </label>
-            </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nemo sapiente reprehenderit, optio, asperiores atque provident itaque dolor molestiae veritatis maiores! Pariatur perferendis dolor suscipit? Quod officia sed quam porro.
         </div>
     </main>
 
     <footer>
+        <div>
+            <img src="./assets/images/header-ccrj.png" style="width: 400px;">
+        </div>
 
+        <div>
+            <span style="font-weight: bold;">Comunidade Cristã do Rio de Janeiro</span>
+            <br>
+            <span>Rua Pompílio de Albuquerque, 274 Encantado - Rio de Janeiro</span>
+            <br>
+            <br>
+            <span>WhastApp: (21) 9 9999-9999</span>
+            <br>
+            <span>contato.comunidadecristariodejaneiro@gmail.com</span>
+        </div>
+
+        <div>
+            <span style="font-weight: bold;">Siga-nos nas redes sociais</span>
+            <br>
+            <a href="https://www.youtube.com/@ComunidadeCristaRioDeJaneiro" style="font-size: 3.0em; text-decoration: none;">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+
+            <a href="https://www.instagram.com/comunidadecristarj/" style="font-size: 3.0em;">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+        </div>
     </footer>
 
     <script src="./js/selector.js"></script>
