@@ -6,3 +6,8 @@ main{
     color: #000;
     background-color: #fff;
 }
+
+.newsletter{
+    display: flex;
+    padding: 5%;
+}

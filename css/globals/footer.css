@@ -1,6 +1,6 @@
 footer{
     position: absolute;
-    top: 170vh;
+    top: 190vh;
     display: grid;
     grid-template-columns: 1fr 30% 1fr;
     align-items: center;

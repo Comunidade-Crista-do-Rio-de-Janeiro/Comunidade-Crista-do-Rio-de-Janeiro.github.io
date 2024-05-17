@@ -39,8 +39,8 @@ input[type=radio] {
 
 .card {
     position: absolute;
-    width: 1000px;
-    height: 625px;
+    width: 50vw;
+    height: 100%;
     cursor: pointer;
     --r: calc(var(--position) - var(--offset));
     --abs: max(calc(var(--r) * -1), var(--r));
