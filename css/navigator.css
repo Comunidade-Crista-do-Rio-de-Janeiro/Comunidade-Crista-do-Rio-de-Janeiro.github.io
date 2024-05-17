@@ -1,0 +1,111 @@
+.navigator{
+    background-color: #535353f5;
+    width: 600px;
+    height: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.navigator ul{
+    display: flex;
+}
+
+.navigator ul li{
+    position: relative;
+    list-style: none;
+    width: 150px;
+    height: 70px;
+    z-index: 1;
+}
+
+.navigator ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.navigator ul li a .icon{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.navigator ul li.active a .icon{
+    transform: translateY(-32px);
+}
+
+.navigator ul li a .text{
+    position: absolute;
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.navigator ul li.active a .text{
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+.indicator{
+    position: absolute;
+    top: -49%;
+    left: 115px;
+    width: 70px;
+    height: 70px;
+    background-color: var(--logo-color);
+    border-radius: 50%;
+    border: 6px solid var(--header-background);
+    transition: 0.5s;
+}
+
+.indicator:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-right-radius: 20px;
+    box-shadow: 1px -10px 0 0 transparent;
+}
+
+.indicator:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-left-radius: 20px;
+    box-shadow: -1px -10px 0 0 transparent;
+}
+
+.navigator ul li:nth-child(1).active ~ .indicator{
+    transform: translateX(calc(150px * 0));
+}
+
+.navigator ul li:nth-child(2).active ~ .indicator{
+    transform: translateX(calc(150px * 1));
+}
+
+.navigator ul li:nth-child(3).active ~ .indicator{
+    transform: translateX(calc(150px * 2));
+}
