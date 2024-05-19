@@ -131,6 +131,11 @@ input[type=radio] {
 
 @media only screen and (max-width: 900px) {
     .carousel{
-        display: none;
+        .cards{
+            height: 70vh;
+        }
+        .card{
+            width: 70vw;
+        }
     }
 }

@@ -20,6 +20,7 @@ footer{
         display: block;
         height: 80vh;
         width: inherit;
+        top: 300vh;
     }
 
     footer div{

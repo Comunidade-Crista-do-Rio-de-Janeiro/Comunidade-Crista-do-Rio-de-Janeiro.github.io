@@ -13,10 +13,8 @@ main{
 }
 
 @media only screen and (max-width: 900px) {
-    main{
-        display: none;
-    }
     .newsletter{
-        display: none;
+        flex-direction: column;
+        align-items: center;
     }
 }
