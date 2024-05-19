@@ -28,3 +28,9 @@
 .news:active {
     transform: scale(0.95) rotateZ(1.7deg);
 }
+
+@media only screen and (max-width: 900px) {
+    .news{
+        display: none;
+    }
+}

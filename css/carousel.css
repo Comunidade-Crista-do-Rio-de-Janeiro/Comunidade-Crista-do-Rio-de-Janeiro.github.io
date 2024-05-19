@@ -128,4 +128,9 @@ input[type=radio] {
 .slider:nth-of-type(5):checked ~ .cards {
     --position: 5;
 }
-  
+
+@media only screen and (max-width: 900px) {
+    .carousel{
+        display: none;
+    }
+}

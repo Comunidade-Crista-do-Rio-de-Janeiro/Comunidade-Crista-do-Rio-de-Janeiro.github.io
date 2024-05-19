@@ -6,3 +6,9 @@
     height: 30vh;
     margin-top: 123vh;
 }
+
+@media only screen and (max-width: 900px) {
+    .background-image-spacer{
+        display: none;
+    }
+}

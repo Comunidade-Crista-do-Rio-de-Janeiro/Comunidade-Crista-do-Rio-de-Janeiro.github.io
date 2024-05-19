@@ -119,3 +119,12 @@
 .navigator ul li:nth-child(3).active ~ .indicator{
     transform: translateX(calc(150px * 2));
 }
+
+@media only screen and (max-width: 900px) {
+    .navigator-div{
+        display: none;
+    }
+    .navigator{
+        display: none;
+    }
+}

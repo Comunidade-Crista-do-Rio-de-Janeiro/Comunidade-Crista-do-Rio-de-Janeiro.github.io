@@ -12,8 +12,25 @@ footer{
 }
 
 @media only screen and (max-width: 900px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
     footer{
         display: block;
-        bottom: 0;
+        height: 80vh;
+        width: inherit;
+    }
+
+    footer div{
+        padding: 15px;
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer div img{
+        width: 300px !important;
     }
 }
